@@ -1,0 +1,261 @@
+:root {
+    color-scheme: dark;
+    font-family: ui-rounded, system-ui, sans-serif;
+    background: #07111f;
+    color: #f4f8ff;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    touch-action: manipulation;
+}
+
+#app {
+    height: 100vh;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+    background: #07111f;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    outline: none;
+}
+
+.hud {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1px 10px;
+    font-size: 12px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #aebcd3;
+    pointer-events: none
+}
+
+.hud strong {
+    color: #fff;
+    font-size: 15px;
+    text-align: end
+}
+
+.panel {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+    width: min(390px, calc(100% - 32px));
+    padding: 28px;
+    text-align: center;
+    background: #101d31e8;
+    border: 1px solid #31445f;
+    border-radius: 22px;
+    box-shadow: 0 18px 60px #0008;
+    backdrop-filter: blur(10px)
+}
+
+.hidden {
+    display: none !important
+}
+
+.eyebrow {
+    font-size: 11px;
+    letter-spacing: .15em;
+    color: #78d8ff;
+    font-weight: 800
+}
+
+h1 {
+    font-size: 38px;
+    margin: 8px 0
+}
+
+h2 {
+    margin: 8px 0 14px
+}
+
+p {
+    color: #c3d0e5;
+    line-height: 1.45
+}
+
+button,
+select {
+    font: inherit
+}
+
+button {
+    border: 0;
+    border-radius: 12px;
+    padding: 13px 20px;
+    margin: 6px;
+    cursor: pointer;
+    font-weight: 800;
+    color: #06111d
+}
+
+.primary {
+    background: #7de0ff;
+    box-shadow: 0 4px 0 #2e91b0
+}
+
+.secondary {
+    background: #d7e5f5;
+    color: #15243a
+}
+
+.help {
+    font-size: 13px;
+    margin-top: 15px
+}
+
+.accent {
+    color: #8cf5b3;
+    font-weight: 800
+}
+
+.panel label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    text-align: start;
+    margin: 16px 0;
+    color: #dfeaff
+}
+
+.panel select {
+    padding: 8px;
+    border-radius: 8px;
+    background: #07111f;
+    color: #fff;
+    border: 1px solid #526682
+}
+
+.toggle input {
+    width: 22px;
+    height: 22px;
+    accent-color: #7de0ff
+}
+
+.jump {
+    position: absolute;
+    right: 18px;
+    bottom: 20px;
+    border-radius: 50%;
+    width: 82px;
+    height: 82px;
+    padding: 0;
+    background: #ffdb71;
+    box-shadow: 0 5px 0 #b98a2f;
+    font-size: 13px
+}
+
+.rtl .hud {
+    right: 20px;
+    left: auto
+}
+
+.rtl .panel label {
+    direction: rtl
+}
+
+@media (max-width:460px) {
+    .panel {
+        padding: 22px
+    }
+
+    .hud {
+        top: 12px;
+        left: 12px
+    }
+
+    .rtl .hud {
+        right: 12px
+    }
+}
+
+.extension-meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 12px;
+    font-size: 12px;
+    direction: ltr;
+    unicode-bidi: isolate;
+    opacity: .8
+}
+
+.extension-meta a {
+    color: inherit;
+    text-decoration: none
+}
+
+.extension-meta a:hover {
+    text-decoration: underline
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('../../font/Vazirmatn.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap
+}
+
+html[lang='fa'],
+html[lang='ar'] {
+    font-family: 'Vazirmatn', sans-serif
+}
+
+html[lang='fa'] button,
+html[lang='fa'] input,
+html[lang='fa'] select,
+html[lang='fa'] textarea,
+html[lang='ar'] button,
+html[lang='ar'] input,
+html[lang='ar'] select,
+html[lang='ar'] textarea {
+    font-family: inherit
+}
+
+html,
+body {
+    width: 420px;
+    height: 600px
+}
+
+#app {
+    width: 420px;
+    height: 600px;
+    min-height: 0
+}
+
+.hud strong {
+    direction: ltr;
+    unicode-bidi: isolate
+}
+
+html[lang="fa"] body,
+html[lang="ar"] body,
+html[lang="fa"] button,
+html[lang="ar"] button,
+html[lang="fa"] input,
+html[lang="ar"] input,
+html[lang="fa"] select,
+html[lang="ar"] select,
+html[lang="fa"] textarea,
+html[lang="ar"] textarea {
+    font-family: "Vazirmatn", sans-serif !important
+}

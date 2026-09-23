@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "Veel üks hüpe"
+    },
+    "gameType": {
+        "message": "LÕPUTU PLATVORMIMÄNG"
+    },
+    "gameArea": {
+        "message": "Veel üks hüpe mänguala"
+    },
+    "distance": {
+        "message": "Distants"
+    },
+    "coins": {
+        "message": "Mündid"
+    },
+    "best": {
+        "message": "Parim"
+    },
+    "score": {
+        "message": "Punktid"
+    },
+    "tagline": {
+        "message": "Väike hüpe võib sind kaugele viia."
+    },
+    "play": {
+        "message": "Mängi"
+    },
+    "playAgain": {
+        "message": "Hüppa uuesti"
+    },
+    "settings": {
+        "message": "Seaded"
+    },
+    "controls": {
+        "message": "Hüppa: tühik, ↑, klõps või puudutus"
+    },
+    "runComplete": {
+        "message": "JOOKS LÕPPES"
+    },
+    "gameOver": {
+        "message": "Mäng läbi"
+    },
+    "menu": {
+        "message": "Menüü"
+    },
+    "language": {
+        "message": "Keel"
+    },
+    "sound": {
+        "message": "Heli"
+    },
+    "reducedMotion": {
+        "message": "Vähendatud liikumine"
+    },
+    "done": {
+        "message": "Valmis"
+    },
+    "jump": {
+        "message": "HÜPPA"
+    },
+    "newBest": {
+        "message": "Uus isiklik rekord!"
+    },
+    "donate": {
+        "message": "Anneta"
+    },
+    "version": {
+        "message": "Versioon 1.0.0"
+    }
+}

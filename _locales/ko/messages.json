@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "한 번 더 점프"
+    },
+    "gameType": {
+        "message": "끝없는 플랫포머"
+    },
+    "gameArea": {
+        "message": "한 번 더 점프 게임 영역"
+    },
+    "distance": {
+        "message": "거리"
+    },
+    "coins": {
+        "message": "코인"
+    },
+    "best": {
+        "message": "최고"
+    },
+    "score": {
+        "message": "점수"
+    },
+    "tagline": {
+        "message": "작은 점프 하나가 당신을 멀리 데려갈 수 있어요."
+    },
+    "play": {
+        "message": "플레이"
+    },
+    "playAgain": {
+        "message": "다시 점프"
+    },
+    "settings": {
+        "message": "설정"
+    },
+    "controls": {
+        "message": "점프: Space, ↑, 클릭 또는 탭"
+    },
+    "runComplete": {
+        "message": "달리기 완료"
+    },
+    "gameOver": {
+        "message": "게임 종료"
+    },
+    "menu": {
+        "message": "메뉴"
+    },
+    "language": {
+        "message": "언어"
+    },
+    "sound": {
+        "message": "소리"
+    },
+    "reducedMotion": {
+        "message": "동작 줄이기"
+    },
+    "done": {
+        "message": "완료"
+    },
+    "jump": {
+        "message": "점프"
+    },
+    "newBest": {
+        "message": "새 개인 최고 기록!"
+    },
+    "donate": {
+        "message": "후원"
+    },
+    "version": {
+        "message": "버전 1.0.0"
+    }
+}

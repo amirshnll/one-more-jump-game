@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "Encore un saut"
+    },
+    "gameType": {
+        "message": "JEU DE PLATEFORME SANS FIN"
+    },
+    "gameArea": {
+        "message": "Zone de jeu d’Encore un saut"
+    },
+    "distance": {
+        "message": "Distance"
+    },
+    "coins": {
+        "message": "Pièces"
+    },
+    "best": {
+        "message": "Meilleur"
+    },
+    "score": {
+        "message": "Score"
+    },
+    "tagline": {
+        "message": "Un petit saut peut vous emmener loin."
+    },
+    "play": {
+        "message": "Jouer"
+    },
+    "playAgain": {
+        "message": "Rejouer"
+    },
+    "settings": {
+        "message": "Réglages"
+    },
+    "controls": {
+        "message": "Saut : Espace, ↑, clic ou toucher"
+    },
+    "runComplete": {
+        "message": "COURSE TERMINÉE"
+    },
+    "gameOver": {
+        "message": "Partie terminée"
+    },
+    "menu": {
+        "message": "Menu"
+    },
+    "language": {
+        "message": "Langue"
+    },
+    "sound": {
+        "message": "Son"
+    },
+    "reducedMotion": {
+        "message": "Réduire les animations"
+    },
+    "done": {
+        "message": "Terminé"
+    },
+    "jump": {
+        "message": "SAUTER"
+    },
+    "newBest": {
+        "message": "Nouveau record personnel !"
+    },
+    "donate": {
+        "message": "Faire un don"
+    },
+    "version": {
+        "message": "Version 1.0.0"
+    }
+}

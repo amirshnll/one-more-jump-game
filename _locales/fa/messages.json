@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "یک پرش دیگر"
+    },
+    "gameType": {
+        "message": "سکوبازی بی‌پایان"
+    },
+    "gameArea": {
+        "message": "محوطه بازی یک پرش دیگر"
+    },
+    "distance": {
+        "message": "مسافت"
+    },
+    "coins": {
+        "message": "سکه‌ها"
+    },
+    "best": {
+        "message": "بهترین"
+    },
+    "score": {
+        "message": "امتیاز"
+    },
+    "tagline": {
+        "message": "یک پرش کوچک می‌تواند شما را دور ببرد."
+    },
+    "play": {
+        "message": "شروع"
+    },
+    "playAgain": {
+        "message": "دوباره بپر"
+    },
+    "settings": {
+        "message": "تنظیمات"
+    },
+    "controls": {
+        "message": "پرش: فاصله، ↑، کلیک یا لمس"
+    },
+    "runComplete": {
+        "message": "پایان دور"
+    },
+    "gameOver": {
+        "message": "پایان بازی"
+    },
+    "menu": {
+        "message": "منو"
+    },
+    "language": {
+        "message": "زبان"
+    },
+    "sound": {
+        "message": "صدا"
+    },
+    "reducedMotion": {
+        "message": "حرکت کمتر"
+    },
+    "done": {
+        "message": "تأیید"
+    },
+    "jump": {
+        "message": "بپر"
+    },
+    "newBest": {
+        "message": "رکورد شخصی جدید!"
+    },
+    "donate": {
+        "message": "حمایت مالی"
+    },
+    "version": {
+        "message": "نسخه ۱.۰.۰"
+    }
+}

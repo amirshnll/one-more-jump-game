@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>One More Jump</title>
+  <link rel="stylesheet" href="css/src/game.css">
+</head>
+
+<body>
+  <main id="app">
+    <canvas id="game" aria-label="One More Jump game area" tabindex="0"></canvas>
+    <div class="hud" aria-live="polite"><span data-i18n="distance">Distance</span><strong id="distance">0
+        m</strong><span data-i18n="coins">Coins</span><strong id="coinCount">0</strong><span
+        data-i18n="best">Best</span><strong id="best">0 m</strong></div>
+    <section id="menu" class="panel" aria-labelledby="title">
+      <div class="eyebrow" data-i18n="gameType">ENDLESS PLATFORMER</div>
+      <h1 id="title" data-i18n="gameTitle">One More Jump</h1>
+      <p data-i18n="tagline">A tiny leap can take you far.</p>
+      <button id="play" class="primary" data-i18n="play">Play</button>
+      <button id="settingsBtn" class="secondary" data-i18n="settings">Settings</button>
+      <p class="help" data-i18n="controls">Jump: Space, ↑, click or tap</p>
+    </section>
+    <section id="over" class="panel hidden" aria-labelledby="overTitle">
+      <div class="eyebrow" data-i18n="runComplete">RUN COMPLETE</div>
+      <h2 id="overTitle" data-i18n="gameOver">Game over</h2>
+      <p id="result"></p>
+      <p id="newBest" class="accent"></p>
+      <button id="again" class="primary" data-i18n="playAgain">Jump again</button><button id="menuBtn" class="secondary"
+        data-i18n="menu">Menu</button>
+    </section>
+    <section id="settings" class="panel hidden" aria-labelledby="settingsTitle">
+      <h2 id="settingsTitle" data-i18n="settings">Settings</h2>
+      <label><span data-i18n="language">Language</span><select id="language"></select></label>
+      <label class="toggle"><span data-i18n="sound">Sound</span><input id="sound" type="checkbox" role="switch"></label>
+      <label class="toggle"><span data-i18n="reducedMotion">Reduced motion</span><input id="motion" type="checkbox"
+          role="switch"></label>
+      <button id="closeSettings" class="primary" data-i18n="done">Done</button>
+    </section>
+    <button id="jump" class="jump hidden" data-i18n="jump">JUMP</button>
+    <div class="extension-meta"><a href="https://ashokri.com/donate/" target="_blank" rel="noopener noreferrer"
+        data-i18n="donate">Donate</a><span aria-hidden="true">-</span><span data-i18n="version">Version 1.0.0</span>
+    </div>
+  </main>
+  <script type="module" src="js/src/game.js"></script>
+</body>
+
+</html>

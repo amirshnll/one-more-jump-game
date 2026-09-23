@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "再跳一次"
+    },
+    "gameType": {
+        "message": "无尽平台游戏"
+    },
+    "gameArea": {
+        "message": "再跳一次游戏区域"
+    },
+    "distance": {
+        "message": "距离"
+    },
+    "coins": {
+        "message": "金币"
+    },
+    "best": {
+        "message": "最佳"
+    },
+    "score": {
+        "message": "得分"
+    },
+    "tagline": {
+        "message": "一次小小的跳跃也能带你走得很远。"
+    },
+    "play": {
+        "message": "开始"
+    },
+    "playAgain": {
+        "message": "再跳一次"
+    },
+    "settings": {
+        "message": "设置"
+    },
+    "controls": {
+        "message": "跳跃：空格键、↑、点击或轻触"
+    },
+    "runComplete": {
+        "message": "本轮完成"
+    },
+    "gameOver": {
+        "message": "游戏结束"
+    },
+    "menu": {
+        "message": "菜单"
+    },
+    "language": {
+        "message": "语言"
+    },
+    "sound": {
+        "message": "声音"
+    },
+    "reducedMotion": {
+        "message": "减少动画"
+    },
+    "done": {
+        "message": "完成"
+    },
+    "jump": {
+        "message": "跳跃"
+    },
+    "newBest": {
+        "message": "新的个人最佳！"
+    },
+    "donate": {
+        "message": "捐赠"
+    },
+    "version": {
+        "message": "版本 1.0.0"
+    }
+}

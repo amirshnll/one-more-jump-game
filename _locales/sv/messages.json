@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "Ett hopp till"
+    },
+    "gameType": {
+        "message": "ÄNDLÖST PLATTFORMSPEL"
+    },
+    "gameArea": {
+        "message": "Spelområdet för Ett hopp till"
+    },
+    "distance": {
+        "message": "Distans"
+    },
+    "coins": {
+        "message": "Mynt"
+    },
+    "best": {
+        "message": "Bäst"
+    },
+    "score": {
+        "message": "Poäng"
+    },
+    "tagline": {
+        "message": "Ett litet hopp kan ta dig långt."
+    },
+    "play": {
+        "message": "Spela"
+    },
+    "playAgain": {
+        "message": "Hoppa igen"
+    },
+    "settings": {
+        "message": "Inställningar"
+    },
+    "controls": {
+        "message": "Hoppa: Blanksteg, ↑, klicka eller tryck"
+    },
+    "runComplete": {
+        "message": "LOPPET KLART"
+    },
+    "gameOver": {
+        "message": "Spelet är slut"
+    },
+    "menu": {
+        "message": "Meny"
+    },
+    "language": {
+        "message": "Språk"
+    },
+    "sound": {
+        "message": "Ljud"
+    },
+    "reducedMotion": {
+        "message": "Minskad rörelse"
+    },
+    "done": {
+        "message": "Klar"
+    },
+    "jump": {
+        "message": "HOPPA"
+    },
+    "newBest": {
+        "message": "Nytt personbästa!"
+    },
+    "donate": {
+        "message": "Donera"
+    },
+    "version": {
+        "message": "Version 1.0.0"
+    }
+}

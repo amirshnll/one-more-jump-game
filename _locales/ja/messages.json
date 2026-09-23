@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "もう一度ジャンプ"
+    },
+    "gameType": {
+        "message": "エンドレス・プラットフォーマー"
+    },
+    "gameArea": {
+        "message": "もう一度ジャンプのゲームエリア"
+    },
+    "distance": {
+        "message": "距離"
+    },
+    "coins": {
+        "message": "コイン"
+    },
+    "best": {
+        "message": "ベスト"
+    },
+    "score": {
+        "message": "スコア"
+    },
+    "tagline": {
+        "message": "小さなジャンプが遠くへ連れていってくれる。"
+    },
+    "play": {
+        "message": "プレイ"
+    },
+    "playAgain": {
+        "message": "もう一度ジャンプ"
+    },
+    "settings": {
+        "message": "設定"
+    },
+    "controls": {
+        "message": "ジャンプ: Space、↑、クリックまたはタップ"
+    },
+    "runComplete": {
+        "message": "ラン完了"
+    },
+    "gameOver": {
+        "message": "ゲームオーバー"
+    },
+    "menu": {
+        "message": "メニュー"
+    },
+    "language": {
+        "message": "言語"
+    },
+    "sound": {
+        "message": "サウンド"
+    },
+    "reducedMotion": {
+        "message": "動きを減らす"
+    },
+    "done": {
+        "message": "完了"
+    },
+    "jump": {
+        "message": "ジャンプ"
+    },
+    "newBest": {
+        "message": "自己ベスト更新！"
+    },
+    "donate": {
+        "message": "寄付"
+    },
+    "version": {
+        "message": "バージョン 1.0.0"
+    }
+}

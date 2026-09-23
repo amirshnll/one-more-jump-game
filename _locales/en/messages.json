@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "One More Jump"
+    },
+    "gameType": {
+        "message": "ENDLESS PLATFORMER"
+    },
+    "gameArea": {
+        "message": "One More Jump game area"
+    },
+    "distance": {
+        "message": "Distance"
+    },
+    "coins": {
+        "message": "Coins"
+    },
+    "best": {
+        "message": "Best"
+    },
+    "score": {
+        "message": "Score"
+    },
+    "tagline": {
+        "message": "A tiny leap can take you far."
+    },
+    "play": {
+        "message": "Play"
+    },
+    "playAgain": {
+        "message": "Jump again"
+    },
+    "settings": {
+        "message": "Settings"
+    },
+    "controls": {
+        "message": "Jump: Space, ↑, click or tap"
+    },
+    "runComplete": {
+        "message": "RUN COMPLETE"
+    },
+    "gameOver": {
+        "message": "Game over"
+    },
+    "menu": {
+        "message": "Menu"
+    },
+    "language": {
+        "message": "Language"
+    },
+    "sound": {
+        "message": "Sound"
+    },
+    "reducedMotion": {
+        "message": "Reduced motion"
+    },
+    "done": {
+        "message": "Done"
+    },
+    "jump": {
+        "message": "JUMP"
+    },
+    "newBest": {
+        "message": "New personal best!"
+    },
+    "donate": {
+        "message": "Donate"
+    },
+    "version": {
+        "message": "Version 1.0.0"
+    }
+}

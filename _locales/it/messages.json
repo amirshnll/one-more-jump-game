@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "Un altro salto"
+    },
+    "gameType": {
+        "message": "PLATFORM SENZA FINE"
+    },
+    "gameArea": {
+        "message": "Area di gioco di Un altro salto"
+    },
+    "distance": {
+        "message": "Distanza"
+    },
+    "coins": {
+        "message": "Monete"
+    },
+    "best": {
+        "message": "Record"
+    },
+    "score": {
+        "message": "Punteggio"
+    },
+    "tagline": {
+        "message": "Un piccolo salto può portarti lontano."
+    },
+    "play": {
+        "message": "Gioca"
+    },
+    "playAgain": {
+        "message": "Salta di nuovo"
+    },
+    "settings": {
+        "message": "Impostazioni"
+    },
+    "controls": {
+        "message": "Salta: Spazio, ↑, clic o tocco"
+    },
+    "runComplete": {
+        "message": "CORSA COMPLETATA"
+    },
+    "gameOver": {
+        "message": "Partita terminata"
+    },
+    "menu": {
+        "message": "Menu"
+    },
+    "language": {
+        "message": "Lingua"
+    },
+    "sound": {
+        "message": "Suono"
+    },
+    "reducedMotion": {
+        "message": "Movimento ridotto"
+    },
+    "done": {
+        "message": "Fatto"
+    },
+    "jump": {
+        "message": "SALTA"
+    },
+    "newBest": {
+        "message": "Nuovo record personale!"
+    },
+    "donate": {
+        "message": "Dona"
+    },
+    "version": {
+        "message": "Versione 1.0.0"
+    }
+}

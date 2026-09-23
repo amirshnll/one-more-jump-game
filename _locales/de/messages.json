@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "Noch ein Sprung"
+    },
+    "gameType": {
+        "message": "ENDLOSES PLATTFORMSPIEL"
+    },
+    "gameArea": {
+        "message": "Spielbereich von Noch ein Sprung"
+    },
+    "distance": {
+        "message": "Distanz"
+    },
+    "coins": {
+        "message": "Münzen"
+    },
+    "best": {
+        "message": "Bestwert"
+    },
+    "score": {
+        "message": "Punkte"
+    },
+    "tagline": {
+        "message": "Ein kleiner Sprung bringt dich weit."
+    },
+    "play": {
+        "message": "Spielen"
+    },
+    "playAgain": {
+        "message": "Noch einmal springen"
+    },
+    "settings": {
+        "message": "Einstellungen"
+    },
+    "controls": {
+        "message": "Sprung: Leertaste, ↑, Klick oder Tippen"
+    },
+    "runComplete": {
+        "message": "LAUF BEENDET"
+    },
+    "gameOver": {
+        "message": "Spiel vorbei"
+    },
+    "menu": {
+        "message": "Menü"
+    },
+    "language": {
+        "message": "Sprache"
+    },
+    "sound": {
+        "message": "Ton"
+    },
+    "reducedMotion": {
+        "message": "Weniger Bewegung"
+    },
+    "done": {
+        "message": "Fertig"
+    },
+    "jump": {
+        "message": "SPRINGEN"
+    },
+    "newBest": {
+        "message": "Neuer persönlicher Rekord!"
+    },
+    "donate": {
+        "message": "Spenden"
+    },
+    "version": {
+        "message": "Version 1.0.0"
+    }
+}

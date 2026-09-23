@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "Un salto más"
+    },
+    "gameType": {
+        "message": "JUEGO DE PLATAFORMAS SIN FIN"
+    },
+    "gameArea": {
+        "message": "Área de juego de Un salto más"
+    },
+    "distance": {
+        "message": "Distancia"
+    },
+    "coins": {
+        "message": "Monedas"
+    },
+    "best": {
+        "message": "Mejor"
+    },
+    "score": {
+        "message": "Puntuación"
+    },
+    "tagline": {
+        "message": "Un pequeño salto puede llevarte lejos."
+    },
+    "play": {
+        "message": "Jugar"
+    },
+    "playAgain": {
+        "message": "Saltar de nuevo"
+    },
+    "settings": {
+        "message": "Ajustes"
+    },
+    "controls": {
+        "message": "Salta: Espacio, ↑, clic o toque"
+    },
+    "runComplete": {
+        "message": "CARRERA TERMINADA"
+    },
+    "gameOver": {
+        "message": "Fin de partida"
+    },
+    "menu": {
+        "message": "Menú"
+    },
+    "language": {
+        "message": "Idioma"
+    },
+    "sound": {
+        "message": "Sonido"
+    },
+    "reducedMotion": {
+        "message": "Reducir movimiento"
+    },
+    "done": {
+        "message": "Listo"
+    },
+    "jump": {
+        "message": "SALTAR"
+    },
+    "newBest": {
+        "message": "¡Nuevo récord personal!"
+    },
+    "donate": {
+        "message": "Donar"
+    },
+    "version": {
+        "message": "Versión 1.0.0"
+    }
+}

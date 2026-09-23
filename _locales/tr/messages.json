@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "Bir Zıplama Daha"
+    },
+    "gameType": {
+        "message": "SONSUZ PLATFORM OYUNU"
+    },
+    "gameArea": {
+        "message": "Bir Zıplama Daha oyun alanı"
+    },
+    "distance": {
+        "message": "Mesafe"
+    },
+    "coins": {
+        "message": "Paralar"
+    },
+    "best": {
+        "message": "En iyi"
+    },
+    "score": {
+        "message": "Puan"
+    },
+    "tagline": {
+        "message": "Küçük bir sıçrayış sizi uzağa taşır."
+    },
+    "play": {
+        "message": "Oyna"
+    },
+    "playAgain": {
+        "message": "Yeniden zıpla"
+    },
+    "settings": {
+        "message": "Ayarlar"
+    },
+    "controls": {
+        "message": "Zıpla: Boşluk, ↑, tıkla veya dokun"
+    },
+    "runComplete": {
+        "message": "KOŞU TAMAMLANDI"
+    },
+    "gameOver": {
+        "message": "Oyun bitti"
+    },
+    "menu": {
+        "message": "Menü"
+    },
+    "language": {
+        "message": "Dil"
+    },
+    "sound": {
+        "message": "Ses"
+    },
+    "reducedMotion": {
+        "message": "Hareketi azalt"
+    },
+    "done": {
+        "message": "Tamam"
+    },
+    "jump": {
+        "message": "ZIPLA"
+    },
+    "newBest": {
+        "message": "Yeni kişisel rekor!"
+    },
+    "donate": {
+        "message": "Bağış yap"
+    },
+    "version": {
+        "message": "Sürüm 1.0.0"
+    }
+}

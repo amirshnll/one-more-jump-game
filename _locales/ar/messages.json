@@ -1,0 +1,71 @@
+{
+    "gameTitle": {
+        "message": "قفزة أخرى"
+    },
+    "gameType": {
+        "message": "لعبة منصات لا نهائية"
+    },
+    "gameArea": {
+        "message": "منطقة لعبة قفزة أخرى"
+    },
+    "distance": {
+        "message": "المسافة"
+    },
+    "coins": {
+        "message": "العملات"
+    },
+    "best": {
+        "message": "الأفضل"
+    },
+    "score": {
+        "message": "النقاط"
+    },
+    "tagline": {
+        "message": "قفزة صغيرة قد تأخذك بعيداً."
+    },
+    "play": {
+        "message": "ابدأ"
+    },
+    "playAgain": {
+        "message": "اقفز مجدداً"
+    },
+    "settings": {
+        "message": "الإعدادات"
+    },
+    "controls": {
+        "message": "اقفز: مسافة، ↑، نقرة أو لمس"
+    },
+    "runComplete": {
+        "message": "انتهت الجولة"
+    },
+    "gameOver": {
+        "message": "انتهت اللعبة"
+    },
+    "menu": {
+        "message": "القائمة"
+    },
+    "language": {
+        "message": "اللغة"
+    },
+    "sound": {
+        "message": "الصوت"
+    },
+    "reducedMotion": {
+        "message": "تقليل الحركة"
+    },
+    "done": {
+        "message": "تم"
+    },
+    "jump": {
+        "message": "اقفز"
+    },
+    "newBest": {
+        "message": "أفضل رقم شخصي جديد!"
+    },
+    "donate": {
+        "message": "تبرّع"
+    },
+    "version": {
+        "message": "الإصدار ١.٠.٠"
+    }
+}
