@@ -14,6 +14,13 @@ async function loadStrings(lang) { return (await fetch(`_locales/${lang}/message
 function t(key) { return strings[key]?.message || key; }
 function metric(value) { return `\u2066${value} m\u2069`; }
 function rtl(lang) { return lang === 'fa' || lang === 'ar'; }
+function populateLanguages() {
+  const fragment = document.createDocumentFragment();
+  for (const locale of locales) {
+    const option = document.createElement('option'); option.value = locale; option.textContent = languageNames[locale]; fragment.append(option);
+  }
+  $('#language').replaceChildren(fragment);
+}
 async function applyLanguage(lang) {
   strings = await loadStrings(lang); settings.language = lang;
   document.documentElement.lang = lang; document.documentElement.dir = rtl(lang) ? 'rtl' : 'ltr';
@@ -84,4 +91,4 @@ function showMenu() { if (state) state.running = false; jumpQueued = false; jump
 $('#play').onclick = start; $('#again').onclick = start; $('#menuBtn').onclick = showMenu; $('#settingsBtn').onclick = () => { $('#menu').classList.add('hidden'); $('#settings').classList.remove('hidden'); $('#language').focus() }; $('#closeSettings').onclick = showMenu;
 $('#language').onchange = e => applyLanguage(e.target.value); $('#sound').onchange = e => { settings.sound = e.target.checked; storage.set({ sound: settings.sound }) }; $('#motion').onchange = e => { settings.reducedMotion = e.target.checked; storage.set({ reducedMotion: settings.reducedMotion }) };
 $('#jump').addEventListener('pointerdown', e => { e.preventDefault(); e.stopPropagation(); jump() }); canvas.addEventListener('pointerdown', jump); addEventListener('keydown', e => { if (e.code === 'Space') { if (!$('#settings').classList.contains('hidden')) return; e.preventDefault(); if (e.repeat) return; if (!$('#menu').classList.contains('hidden') || !$('#over').classList.contains('hidden')) start(); else jump(true) } else if (e.code === 'ArrowUp') { e.preventDefault(); if (!e.repeat) jump(true) } if (e.code === 'Escape') showMenu() }); addEventListener('keyup', e => { if (['Space', 'ArrowUp'].includes(e.code) && jumpQueuedByKeyboard) { jumpQueued = false; jumpQueuedByKeyboard = false } }); addEventListener('resize', resize);
-(async () => { Object.assign(settings, await storage.get()); $('#language').innerHTML = locales.map(x => `<option value="${x}">${languageNames[x]}</option>`).join(''); await applyLanguage(settings.language); resize(); state = freshState(); requestAnimationFrame(frame); })();
+(async () => { Object.assign(settings, await storage.get()); populateLanguages(); await applyLanguage(settings.language); resize(); state = freshState(); requestAnimationFrame(frame); })();

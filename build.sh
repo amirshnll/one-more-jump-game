@@ -13,7 +13,8 @@ trap cleanup EXIT INT TERM
 
 mkdir -p "$output_dir"
 find "$project_dir" -mindepth 1 -maxdepth 1 \
-  ! -name outputs ! -name build.sh ! -name README.md \
+  ! -name .git ! -name .github ! -name outputs \
+  ! -name build.sh ! -name README.md \
   -exec cp -R {} "$stage_dir/" \;
 
 find "$stage_dir" -type f \
