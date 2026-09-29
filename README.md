@@ -12,6 +12,10 @@ One More Jump is a lightweight, multilingual endless-platformer browser extensio
 
 The extension delivers a compact arcade experience that can be launched instantly from the browser toolbar for quick, replayable gaming sessions.
 
+## Download
+
+[Chrome](https://chromewebstore.google.com/detail/one-more-jump/pnjnplfhijaknceedfnfljnmfagijjem) - [Firefox](https://addons.mozilla.org/firefox/addon/one-more-jump/)
+
 ## License
 
 One More Jump is licensed under the MIT License. See the `LICENSE` file for the full license text.
